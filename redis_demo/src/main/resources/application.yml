@@ -1,0 +1,22 @@
+server:
+  port: 8001
+
+spring:
+  profiles:
+    active: dev
+
+  redis:
+    host: ${sky.redis.host}
+    port: ${sky.redis.port}
+    password: ${sky.redis.password}
+    database: ${sky.redis.database}
+
+logging:
+  level:
+    com:
+      sky:
+        mapper: debug
+        service: info
+        controller: info
+
+

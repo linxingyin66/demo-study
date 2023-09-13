@@ -1,0 +1,6 @@
+sky:
+  alioss:
+    endpoint: XXX
+    access-key-id: XXX
+    access-key-secret: XXX
+    bucket-name: XXX

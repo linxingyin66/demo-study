@@ -1,0 +1,6 @@
+sky:
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tKygdqHgcUcqJKpeL45
+    access-key-secret: 8K28RPzyH5OgMjFEztcWBiv5ZttBWX
+    bucket-name: sky-take-out-2023-9-12

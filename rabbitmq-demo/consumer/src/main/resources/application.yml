@@ -1,0 +1,13 @@
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 192.168.11.100
+    port: 5672
+    username: root
+    password: 1111
+    virtual-host: /
+    listener:
+      simple:
+        prefetch: 1   #消息预取

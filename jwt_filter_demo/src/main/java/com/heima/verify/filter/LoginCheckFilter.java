@@ -57,8 +57,6 @@ public class LoginCheckFilter implements Filter {
 
         filterChain.doFilter(request,response);
 
-
     }
-
 
 }

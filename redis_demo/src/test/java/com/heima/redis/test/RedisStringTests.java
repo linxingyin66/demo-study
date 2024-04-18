@@ -32,7 +32,6 @@ class RedisStringTests {
         String json = JSONUtil.toJsonStr(user);
         // 写入数据
         stringRedisTemplate.opsForValue().set("user:201", json);
-
         // 获取数据
         String jsonUser = stringRedisTemplate.opsForValue().get("user:201");
         // 手动反序列化
